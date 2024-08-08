@@ -1,0 +1,30 @@
+.date-picker {
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .day {
+    width: calc(100% / 7);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .day.non-current {
+    color: #ccc;
+  }
+  
